@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://github.com/EvoEsports/docker-trackmaniaforever/assets/4627720/1ecb1eef-31d3-479a-ba52-6aad2ea6c379?raw=true" alt="Trackmania image" height="100"/>
-</p>
+  <img src="https://user-images.githubusercontent.com/4627720/297103738-dec9b331-7dea-4ab7-8e32-fe36a804788d.png?raw=true" alt="Trackmania image" height="100"/>
+
 <p align="center">
     <a href="https://hub.docker.com/r/evoesports/trackmaniaforever">
         <img src="https://img.shields.io/docker/stars/evoesports/trackmaniaforever?&style=flat-square"
