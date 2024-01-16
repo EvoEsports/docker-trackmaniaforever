@@ -56,7 +56,7 @@ EXPOSE 5000/tcp
 EXPOSE 9000/tcp
 
 HEALTHCHECK --interval=5s --timeout=5s --start-period=20s --retries=3 \
-    CMD [ "nc -z -v 127.0.0.1 5000 || exit 1" ]
+    CMD [ "/bin/sh", "-c", "nc -z -v 127.0.0.1 5000 || exit 1" ]
 
 ENTRYPOINT [ "entrypoint.sh" ]
 CMD [ "./TrackmaniaServer" ]
