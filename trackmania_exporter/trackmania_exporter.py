@@ -5,7 +5,7 @@ import time
 import os
 
 # connect to xmlrpc
-gbxremote = GbxRemote(host='127.0.0.1', port=os.environ.get('TM_SYSTEM_XMLRPC_PORT', 5000), user='SuperAdmin', password=os.environ.get('TM_AUTHORIZATION_SUPERADMIN_PASSWORD', 'SuperAdmin'))
+gbxremote = GbxRemote(host='127.0.0.1', port=os.environ.get('TMF_SYSTEM_XMLRPC_PORT', 5000), user='SuperAdmin', password=os.environ.get('TMF_AUTHORIZATION_SUPERADMIN_PASSWORD', 'SuperAdmin'))
 
 gbxconnected = False
 while not gbxconnected:
